@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default.css";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+header {
+    background-color: #01342d;
+    margin-top: 6em;
+    padding-right: 15em;
+    padding-bottom: 2em;
+    color: #ffffff;
+}
+
+.about-me {
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 5em;
+    margin-top: 3em;
+    color: #ffffff;
+}
+
+body {
+    background-color: #01342d;
+    font-family: "Bodoni 72";
+    color: floralwhite;
+    display: block;
+    text-align: right;
+}
+
+.resume-highlights {
+    background-color: #ffc2c2;
+    padding-left: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: #661414;
+    text-align: left;
+}
+
+/*.resume-highlights h2 {*/
+/*    padding-bottom: 5em;*/
+/*}*/
+
+.portfolio-examples {
+    background-color: #01342d;
+    text-align: right;
+}
+
+/*.flex-grid-thirds > * {*/
+/*    display: grid;*/
+/*    border: 2px dotted #ffffff;*/
+/*    border-radius: 15px;*/
+/*    background-color: rosybrown;*/
+/*    justify-content: space-evenly;*/
+/*    grid-auto-columns: auto;*/
+/*    height: 30em;*/
+/*    width: 25em;*/
+/*}*/
+
+div ~ h2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 8em;
+}
+
+.contact-melissa {
+    text-align: left;
+    margin-left: 15em;
+}
+
+div ~ p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: #661414;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    color: #ffc2c2
+}
+
+footer {
+    background-color: #ffc2c2;
+    text-align: center;
+    padding-block: 2em;
+    color: #661414;
+    margin-top: 3em;
+}
